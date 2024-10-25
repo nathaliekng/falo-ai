@@ -109,7 +109,7 @@ function CreateTrip() {
     }
 
   return (
-    <div className='sm:px-10 md:px-32 lg:px-56 xl:px-10 px-5 mt-10'>
+    <div className='sm:px-10 md:px-32 lg:px-56 xl:px-80 px-5 mt-10'>
         <h2 className='font-bold text-3xl'>Tell us your layover details 🛬</h2>
         <p className='mt-3 text-gray-500 text-xl'>Please provide some basic information</p>
 
@@ -176,6 +176,7 @@ function CreateTrip() {
         </div>
         <div className="my-10 justify-end flex">
         <Button 
+        className="bg-[#3686a6]"
         disabled={loading}
         onClick={OnGenerateTrip}>
             {loading?
