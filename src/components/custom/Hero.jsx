@@ -7,12 +7,12 @@ function Hero() {
     <div className="flex flex-col items-center mx-56 gap-9">
       <h1 className="font-extrabold text-[50px] text-center mt-16">
         <span className="text-[#327393]">
-          Discover your next adventure with AI:
+          Plan your next layover outing with AI:
         </span>{" "}
-        Personalized Itinerary
+        Personalized Layover
       </h1>
       <p className="text-xl text-gray-500 text-center">
-        Your personal trip planner, creating custom itineraries tailored to your
+        Your personal layover planner, creating custom itineraries tailored to your
         interests and budget
       </p>
 
